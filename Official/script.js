@@ -43,7 +43,7 @@ function clicar(){
     resp.innerHTML ="CHOI BEOMGYU É DA BECCA!!!"
     sim.style.transform="translate(0px)"
     nao.style.transform="translate(0px, 0px)"
-    img.src = "bomuFotos/bomuheart.jpg"
+    img.src = "bomuheart.jpg"
 
     resp.style.opacity= 1;
     resp.style.fontSize = "35px";
@@ -55,15 +55,15 @@ function clicar(){
 }
 
 function trocaFotoNao(){
-    img.src = "bomuFotos/bomugun.jpg"
+    img.src = "bomugun.jpg"
 }
 
 function trocaFotoSim(){
-    img.src = "bomuFotos/bomuyesss.jpg"
+    img.src = "bomuyesss.jpg"
 }
 
 function fotoPadrao(){
-    img.src = "bomuFotos/omgbomu.jpg"
+    img.src = "omgbomu.jpg"
 }
 
 sim.addEventListener("mouseover", trocaFotoSim)
